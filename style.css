@@ -24,7 +24,12 @@ body {
 header {
   color: white;
   text-align: center;
-  background-image: url('images/JULIE-orez.jpg');
+  text-shadow: 1px 2px 3px #808080;
+  background-image: linear-gradient(
+    to left top,
+    rgba(0, 0, 0, 0.2) 10%,
+    rgba(0, 0, 0, 0.2) 10%
+  ),url('images/JULIE-orez.jpg');
   background-repeat: no-repeat; 
   width: 100%;
   padding: 1rem;
