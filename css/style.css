@@ -1,0 +1,29 @@
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+/*
+ BARVY
+ pozadi           #f5f5f5
+ dekorace nadpisů #629edb
+*/
+
+body {
+    background-color: #f5f5f5;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: url("images/lod.jpg");
+    background-repeat: no-repeat; 
+    width: 100%;
+    padding: 1rem;
+}
