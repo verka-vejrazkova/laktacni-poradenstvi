@@ -24,7 +24,7 @@ body {
 header {
   color: white;
   text-align: center;
-  background-image: url('images/lod.jpg');
+  background-image: url('images/JULIE-orez.jpg');
   background-repeat: no-repeat; 
   width: 100%;
   padding: 1rem;
@@ -45,9 +45,6 @@ header {
   font-size: 4rem;
 }
 
-.table {
-  padding-left: -1.5rem;
-}
 
 /* MENU */
 
@@ -118,6 +115,11 @@ h2 {
 }
 
 @media (min-width: 500px) {
+
+  header {
+    background-image: url('images/lod.jpg');
+
+  }
 
   .menu {
     display: flex;
