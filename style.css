@@ -40,14 +40,13 @@ header {
   margin: 0;
 }
 
-.podtrzitko2 {
-  font-weight: bold;
-  color: #629edb;
-}
-
 .titulek {
   font-family: "Raleway", serif;
   font-size: 4rem;
+}
+
+.table {
+  padding-left: -1.5rem;
 }
 
 /* MENU */
@@ -78,8 +77,14 @@ h2 {
   width: 100vw;
 }
 
-.odstavec {
-  padding: 1rem;
+.poradenstvi,
+.latkovani,
+.noseni,
+.cenik,
+.reference,
+.priprava,
+.laktacni {
+  padding: 2rem;
 }
 
 .popisek {
@@ -89,6 +94,11 @@ h2 {
 
 .popisek a {
   color: gray;
+}
+
+.ref {
+  font-style: italic;
+  padding-top: 1rem;
 }
 
 /* FOTOGALERIE */
@@ -115,8 +125,7 @@ h2 {
   }
 
 
-  table,
-  .reference {
+  table {
     padding: 4rem;
 
   }
