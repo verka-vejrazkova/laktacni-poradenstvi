@@ -45,6 +45,17 @@ header {
   margin: 0;
 }
 
+.podtrzitko2 {
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #629edb;
+  
+}
+
+.cenik {
+  padding-left: 4rem;
+  margin-bottom: -2rem;
+}
 .titulek {
   font-family: "Raleway", serif;
   font-size: 4rem;
@@ -56,6 +67,10 @@ header {
 .menu {
   text-align: center;
   max-width: 90vw;
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
@@ -73,6 +88,12 @@ h2 {
   text-transform: uppercase;
 }
 
+.odstavec-uvod {
+  padding: 1.5 rem;
+}
+
+
+
 /* OBSAH */
 
 .velky-obrazek {
@@ -85,7 +106,8 @@ h2 {
 .cenik,
 .reference,
 .priprava,
-.laktacni {
+.laktacni,
+.cenik2 {
   padding: 2rem;
 }
 
