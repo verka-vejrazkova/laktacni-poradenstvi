@@ -31,6 +31,7 @@ header {
     rgba(0, 0, 0, 0.2) 10%
   ),url('images/JULIE-orez.jpg');
   background-repeat: no-repeat; 
+  background-size: cover;  
   width: 100%;
   padding: 1rem;
 }
