@@ -250,7 +250,7 @@ h2 {
 
 
 @media (min-width: 1000px) {
-}
+
 
 .body{
   display: flex;
@@ -350,4 +350,6 @@ header p {
 .uvod {
   width: 70%;
   padding-left: 5%;
+}
+
 }
