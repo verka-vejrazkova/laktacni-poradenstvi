@@ -103,14 +103,17 @@ h2 {
 
 /* OBSAH */
 
-.aktualniUdalost{
-  display:flex;
+.aktualniUdalosti{
+  display:grid;
 }
 
 .udalost1{
+  display: flex;
   background-image: url("images/priprava.jpg");
-  height: 85vh;
-  background-size: cover;
+  height: 40vh;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  justify-content: center;
 
 }
 
