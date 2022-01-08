@@ -103,6 +103,17 @@ h2 {
 
 /* OBSAH */
 
+.aktualniUdalost{
+  display:flex;
+}
+
+.udalost1{
+  background-image: url("images/priprava.jpg");
+  height: 85vh;
+  background-size: cover;
+
+}
+
 .velky-obrazek {
   width: 100vw;
 }
