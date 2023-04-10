@@ -109,7 +109,7 @@ h2 {
 
 .udalost1{
   display: flex;
-  background-image: url("images/priprava.jpg");
+  background-image: url("images/plakatJS.jpg");
   height: 40vh;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -162,6 +162,8 @@ h2 {
   color: gray;
 }
 
+
+
 @media (min-width: 500px) {
 
   header {
@@ -174,6 +176,9 @@ h2 {
     justify-content: center;
   }
 
+  .udalost1{    
+    height: 90vh; 
+  }
 
   table {
     padding: 4rem;
@@ -220,28 +225,28 @@ h2 {
     display: none;
   }
 
-.trava,
-.ledovec,
-.vodopad
+.part1,
+.part2,
+.part3
  {
   position: relative;
 }
 
-  .trava .popisek {
+  .part1 .popisek {
     position: absolute;
     bottom: 2%;
     right: 2%;
     color: white;
   }
 
-.ledovec .popisek {
+.part2 .popisek {
   position: absolute;
   bottom: 2%;
   right: 2%;
   color: white;
 }
 
-.vodopad .popisek 
+.part3 .popisek 
 {
   position: absolute;
   bottom: 2%;
@@ -272,6 +277,9 @@ h2 {
   justify-content: center;
 }
 
+.udalost1{    
+  height: 90vh; 
+}
 
 .velky-box {
 width: 75%;
@@ -367,4 +375,4 @@ header p {
   padding-left: 5%;
 }
 
-}
+}}
